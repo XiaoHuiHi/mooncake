@@ -223,4 +223,8 @@ swiper-container {
         height: 250px;
         top: 130px;
     }
+      .container3 .card .imgBx
+    {
+        width: 250px;
+    }
   }
