@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="https://kit.fontawesome.com/d93c1e0b2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <p><i class="fa-solid fa-cake-candles"></i> Moon Cake</p>
+        </div>
+    </div>
+    <section class="home">
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+    <swiper-slide>
+        <div class="content2">
+            <h3>test</h3>
+            <span>test</span>
+        </div>
+        <div class="image">
+            <img src="images/images (2).jpg" alt="">
+        </div>
+    </swiper-slide>
+    <swiper-slide><div class="content2">
+        <h3>test</h3>
+        <span>test</span>
+    </div>
+    <div class="image">
+        <img src="images/images (2).jpg" alt="">
+    </div></swiper-slide>
+    <swiper-slide><div class="content2">
+        <h3>test</h3>
+        <span>test</span>
+    </div>
+    <div class="image">
+        <img src="images/images (2).jpg" alt="">
+    </div></swiper-slide>
+    <swiper-slide><div class="content2">
+        <h3>test</h3>
+        <span>test</span>
+    </div>
+    <div class="image">
+        <img src="images/images (2).jpg" alt="">
+    </div></swiper-slide>
+    <swiper-slide><div class="content2">
+        <h3>test</h3>
+        <span>test</span>
+    </div>
+    <div class="image">
+        <img src="images/images (2).jpg" alt="">
+    </div></swiper-slide>
+  </swiper-container>
+  </section>
+  <div class="content3">
+    <p class="t">Moon <span class="cake">Cake</span></p>
+    <p class="anou">Click it for More Information</p>
+  </div>
+  <div class="container3">
+    <div class="card">
+        <div class="imgBx">
+            <img src="images/9567.gif_wh300.gif" alt="">
+        </div>
+        <div class="content">
+            <h2>Test</h2>
+            <p>Testssssssssssssss</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="imgBx">
+            <img src="" alt="">
+        </div>
+        <div class="content"></div>
+    </div>
+    <div class="card">
+        <div class="imgBx">
+            <img src="" alt="">
+        </div>
+        <div class="content"></div>
+    </div>
+    <div class="card">
+        <div class="imgBx">
+            <img src="" alt="">
+        </div>
+        <div class="content"></div>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</html>
